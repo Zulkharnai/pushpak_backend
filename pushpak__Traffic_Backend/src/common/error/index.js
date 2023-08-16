@@ -1,0 +1,7 @@
+const INTERNAL_SERVER_ERROR = require('./INTERNAL_SERVER_ERROR');
+const PAGE_NOT_FOUND_ERROR = require('./PAGE_NOT_FOUND_ERROR');
+
+module.exports = {
+    PAGE_NOT_FOUND_ERROR,
+    INTERNAL_SERVER_ERROR
+}
